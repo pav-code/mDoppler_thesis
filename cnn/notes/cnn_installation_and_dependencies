@@ -1,0 +1,39 @@
+
+OS Dependencies:
+Ubuntu:
+ CPU only: (through pip)
+  $ sudo apt-get install python-pip python-dev   # for Python 2.7
+  $ pip install tensorflow      # Python 2.7; CPU support (no GPU support)
+ Softmax linear regression example: 
+  (MNIST, cross-entropy, softmax)
+  https://github.com/tensorflow/tensorflow/blob/r1.2/tensorflow/examples/tutorials/mnist/mnist_softmax.py
+
+Windows:
+ GPU support:
+  -CUDA® Toolkit 8.0. For details, see NVIDIA's documentation Ensure that you append the relevant
+  Cuda pathnames to the %PATH% environment variable as described in the NVIDIA documentation.
+  -The NVIDIA drivers associated with CUDA Toolkit 8.0.
+  -cuDNN v5.1. For details, see NVIDIA's documentation. Note that cuDNN is typically installed in
+  different location from the other CUDA DLLs. Ensure that you add the directory where you installed
+  the cuDNN DLL to your %PATH% environment variable. 
+  -GPU card with CUDA Compute Capability 3.0 or higher.
+ Pip:
+  -Python 3.5.x: https://www.python.org/downloads/release/python-352/
+  -Ensure that pip is installed and accessible through the terminal (Pip is python's package manager)
+  -C:\> pip3 install --upgrade tensorflow-gpu
+
+MNIST dataset:
+ load:
+  from tensorflow.examples.tutorials.mnist import input_data
+  mnist = input_data.read_data_sets("<Directory of mnist>", one_hot=True)
+ show:
+  batch_xs, batch_ys = mnist.train.next_batch(1)
+  import matplotlib.pyplot as plt 
+  xs = batch_xs.reshape(28,28)
+  imgplot = plt.imshow(xs)
+  plt.show()
+  
+Numpy:
+ https://docs.scipy.org/doc/numpy/numpy-ref-1.13.0.pdf
+ 
+

@@ -1,0 +1,1 @@
+C3D_VaxD2PC('convert', '\\file00.chalmers.se\home\freaxels\.win\Desktop\Tes_Mocap\MOCAP\data')

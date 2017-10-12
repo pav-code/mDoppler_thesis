@@ -1,0 +1,63 @@
+Note: Please look over these image competitions, and see which one you think most looks our
+dataset (I'm thinking MNIST or SVHN):
+http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html#43494641522d3130
+
+Note: Must be 3.0 or higher.
+
+GPU 	Compute Capability
+NVIDIA TITAN Xp 	6.1
+NVIDIA TITAN X 	6.1
+GeForce GTX 1080 Ti 	6.1
+GeForce GTX 1080 	6.1
+GeForce GTX 1070 	6.1
+GeForce GTX 1060 	6.1
+GeForce GTX 1050 	6.1
+GeForce GTX TITAN X 	5.2
+GeForce GTX TITAN Z 	3.5
+GeForce GTX TITAN Black 	3.5
+GeForce GTX TITAN 	3.5
+GeForce GTX 980 Ti 	5.2
+GeForce GTX 980 	5.2
+GeForce GTX 970 	5.2
+GeForce GTX 960 	5.2
+GeForce GTX 950 	5.2
+GeForce GTX 780 Ti 	3.5
+GeForce GTX 780 	3.5
+GeForce GTX 770 	3.0
+GeForce GTX 760 	3.0
+GeForce GTX 750 Ti 	5.0
+GeForce GTX 750 	5.0
+GeForce GTX 690 	3.0
+GeForce GTX 680 	3.0
+GeForce GTX 670 	3.0
+GeForce GTX 660 Ti 	3.0
+GeForce GTX 660 	3.0
+GeForce GTX 650 Ti BOOST 	3.0
+GeForce GTX 650 Ti 	3.0
+GeForce GTX 650 	3.0
+GeForce GTX 560 Ti 	2.1
+GeForce GTX 550 Ti 	2.1
+GeForce GTX 460 	2.1
+GeForce GTS 450 	2.1
+GeForce GTS 450* 	2.1
+GeForce GTX 590 	2.0
+GeForce GTX 580 	2.0
+GeForce GTX 570 	2.0
+GeForce GTX 480 	2.0
+GeForce GTX 470 	2.0
+GeForce GTX 465 	2.0
+GeForce GT 740 		3.0
+GeForce GT 730 		3.5
+GeForce GT 730 DDR3,128bit 	2.1
+GeForce GT 720 		3.5
+GeForce GT 705* 	3.5
+GeForce GT 640 (GDDR5) 	3.5
+GeForce GT 640 (GDDR3) 	2.1
+GeForce GT 630 		2.1
+GeForce GT 620 		2.1
+GeForce GT 610 		2.1
+GeForce GT 520 		2.1
+GeForce GT 440 		2.1
+GeForce GT 440* 	2.1
+GeForce GT 430 		2.1
+GeForce GT 430* 	2.1

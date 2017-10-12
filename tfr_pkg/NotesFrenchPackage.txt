@@ -1,0 +1,22 @@
+
+[tfr,t,f,wt]=tfrscalo(X,time,wave,fmin,fmax,N,trace);
+
+	tfrscalo is a scalogram (wavelet) with Morlet or Mexican Hat wavelet - wave = 0 gives Mexican hat
+
+
+[tfr,t,f] = tfrspwv(x,t,N,g,h,trace);
+
+	x - signal
+	t - time (1:length(x))
+	N - # of freq. bins
+	g - time-smoothing window
+	h - freq-smoothing window
+
+[tfr,rtfr,hat] = tfrrmsc(x,t,N,f0T,trace,K);
+
+	%TFRRMSC Reassigned Morlet Scalogram time-frequency distribution.
+	%	X     : analysed signal
+	%	T     : the time instant(s)           (default : 1:length(X))
+	%	N     : number of frequency bins      (default : length(X))
+	%	F0T   : time-bandwidth product of the mother wavelet 
+	%					      (default : 2.5)) 
