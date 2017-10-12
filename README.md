@@ -30,9 +30,7 @@ This folder contains the time-frequency resolution function files. Files in this
 # emd_pkg
 main_cemd.m breaks down the input signal into IMF:s according to the EMD algorithm. The file runs in C through Matlab. The file is associated with the /EMD folder and the /utils folder. 
 
-# Python code
-
-# The CNNs (Python)
+# CNN
 data_helper_scripts : Python helper scripts for images augmentation, resizing, horizontal flipping, removing white spaces. Files that begin with 'popu_' are used to generate lists that are used by the CNN to index the data folder (i.e. images in the data folder, are called by name using the generated textfiles [feel free to remove this feature and simply grab from folder directly]).
 
 MNIST_data : Data used in the MNIST data set. It serves for a sanity check of a CNN, classification accuracy of over 98 percent must be achieved for any viable CNN. Note: cnn_main.py doesn't run this as is, filter sizes must be corrected to an appropriate size, see comment in 'cnn_main.py'.
@@ -41,5 +39,3 @@ notes : GPU requirements (for GPU acceleration), TF dependencies and a generic e
 cnn_main.py : Main CNN file. All functions implemented within. Adjustable filter sizes and depths (must match dimensions!!) as well as nodes architecture. 
 
 resize_image_win.py resizes an input image on a Windows OS.
-
-
