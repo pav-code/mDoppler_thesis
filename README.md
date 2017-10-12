@@ -1,5 +1,5 @@
 # mDoppler_thesis
-Human activity classification using simulated micro-Dopplers and time-frequency analysis in conjunction with machine learning algorithms: a comparative study for automotive use. Code and tools.
+Human activity classification using simulated micro-Dopplers and time-frequency analysis in conjunction with machine learning algorithms: a comparative study for automotive use (Chalmers University of Technology, Gothenburg, Sweden. August 2017). Code and tools.
 
 # contact info
 Pavel Gueorguiev
